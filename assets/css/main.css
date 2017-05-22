@@ -1,0 +1,83 @@
+body{
+	background-color: black;
+	margin: 0 auto;
+}
+
+/*MENU*/
+.menu{
+	overflow: auto;
+	background-color: firebrick;
+}	
+ul{
+	list-style: none;
+	display: inline-block;
+	margin-left: 100px;
+}
+li{
+	float: left;
+	color: white;
+	padding-right: 20px;
+}
+a{
+	text-decoration-style: none;
+	color: white;
+}
+
+/*IMAGENES*/
+.imagenpanda{
+	display: block;
+	overflow: auto;
+	width: 100%;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+.cuadrado{
+	display: inline-block;
+	float: left;
+	background-color: purple;
+	margin-right: 20px;
+	width: 120px;
+	height: 120px;
+}
+.panda{
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	width: 120px;
+	height: 120px;
+}
+
+/*MENU CENTRO*/
+
+.texto{
+	color:white;
+	display: inline-block;
+	float: left;
+	background-color: firebrick;
+	margin-right: 5px;
+	width: 270px;
+	text-align: center;
+	cursor: pointer; 
+}
+.textocentral{
+	margin-left: 150px;
+	margin-bottom: 30px;
+}
+
+/* TEXTO */
+.lineas{
+	color:white;
+}
+#izq{
+	float: left;
+	margin-left: 120px;
+	width: 35%;
+	text-align: justify;
+}
+#der{
+	float: left;
+	margin-left: 30px;
+	width: 35%;
+	text-align: justify;
+}
+
